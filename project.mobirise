@@ -41,7 +41,7 @@
       }
     ],
     "imageResize": true,
-    "favicon": "@PROJECT_PATH@/assets/images/img-2473-128x128.png",
+    "favicon": false,
     "cssOptimize": true,
     "lazyLoad": false,
     "PWA": {
@@ -51,13 +51,14 @@
       "themeColor": "#f9fafb"
     },
     "lazyType": "nothing",
-    "robotsSwitcher": false,
-    "sitemapSwitcher": false,
-    "sitemapSwitcherAuto": false,
-    "siteUrl": false,
+    "robotsSwitcher": true,
+    "sitemapSwitcher": true,
+    "sitemapSwitcherAuto": "on",
+    "siteUrl": "https://vitorgserafim.github.io/pirasolidaria",
     "cookiesAlert": false,
     "gdpr": false,
     "pwa-switcher": true,
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
     "uniqCompNum": 10,
     "versionPublish": "4.12.3"
   },
@@ -65,7 +66,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
+        "title": "Pira Solidária",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
